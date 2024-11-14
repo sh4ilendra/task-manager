@@ -1,6 +1,6 @@
 package com.shailendra.taskmanager.utility;
 
-import com.shailendra.taskmanager.Enums.Status;
+import com.shailendra.taskmanager.enums.Status;
 import com.shailendra.taskmanager.model.Task;
 import com.shailendra.taskmanager.model.User;
 
@@ -22,9 +22,7 @@ public class InitialiseUtils {
         task.setUser(user);       // Associate task with user
         task.setDescription(description); // Set the description
         task.setStatus(Status.CREATED); // Set the initial status as OPEN.
-        if(task.getStatus() == Status.CREATED){
-            task.setCreatedTime(new Date());
-        }
+        task.setCreatedTime(new Date());
         task.setDueDate(dueDate);  // Set the due date (can be null)
         return task;
     }

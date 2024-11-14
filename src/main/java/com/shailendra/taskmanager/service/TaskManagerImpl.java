@@ -1,14 +1,12 @@
 package com.shailendra.taskmanager.service;
 
-import com.shailendra.taskmanager.Enums.Status;
+import com.shailendra.taskmanager.enums.Status;
 import com.shailendra.taskmanager.model.Task;
 import com.shailendra.taskmanager.repository.TaskRepository;
 
-import java.util.Collections;
 import java.util.Date;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Collectors;
 
 public class TaskManagerImpl implements TaskManager{
 

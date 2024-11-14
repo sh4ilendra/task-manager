@@ -1,6 +1,6 @@
 package com.shailendra.taskmanager.repository;
 
-import com.shailendra.taskmanager.Enums.Status;
+import com.shailendra.taskmanager.enums.Status;
 import com.shailendra.taskmanager.model.Task;
 
 import java.util.*;

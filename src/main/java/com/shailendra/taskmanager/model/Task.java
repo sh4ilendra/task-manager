@@ -1,6 +1,6 @@
 package com.shailendra.taskmanager.model;
 
-import com.shailendra.taskmanager.Enums.Status;
+import com.shailendra.taskmanager.enums.Status;
 
 import java.util.Date;
 

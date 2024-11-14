@@ -1,4 +1,4 @@
-package com.shailendra.taskmanager.Enums;
+package com.shailendra.taskmanager.enums;
 
 public enum Status {
     CREATED,
